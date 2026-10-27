@@ -1,0 +1,17 @@
+# Secrets: never commit a private key
+*.p8
+*.pem
+.env
+
+# Course material and lab-1 helper, not part of the platform
+*.pdf
+gen_key.py
+
+# dbt / Python local files
+**/target/
+**/dbt_packages/
+**/logs/
+**/.venv/
+**/venv/
+**/.user.yml
+__pycache__/
